@@ -1,0 +1,96 @@
+/* --rich-black: #0d1821ff;
+--orange-wheel: #ff7d00ff;
+--magnolia: #f5f0f6ff;
+--ultra-violet: #726da8ff;
+--tea-green: #caffd0ff;
+--light-cyan: #c9e4e7ff;
+--licorice: #1e1014ff;
+--gunmetal: #132e32ff;
+--tiffany-blue: #78e0dcff; */
+
+/*FONTS 
+font-family: 'Josefin Slab', serif;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Montserrat Subrayada', sans-serif;
+-------------------------------------------------------------/*
+/* Global Styles
+------------------------------------------------*/
+body {
+  color: #1e1014ff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Slab', serif;
+}
+
+img {
+  width: 300px;
+}
+
+a {
+  color: #ff7d00ff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+h2 {
+  font-family: 'Major Mono Display', monospace;
+  margin: 0px;
+}
+
+.conteiner-conteudo{
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+
+/* Perfil
+------------------------------------------------*/
+header {
+  background: #1e1014ff;
+  color: #f5f0f6ff;
+}
+
+/* Projetos
+------------------------------------------------*/
+.projetos {
+  background: #f5f0f6ff;
+}
+
+.projetos a {
+  color: #132e32ff;
+}
+.projetos .btn {
+  color: #caffd0ff;
+  background: #1e1014ff;
+  text-decoration: none;
+  padding: 8px; /* preenchimento*/
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.projetos .btn:hover {
+  background: rgb(114, 109, 168, 80%);
+}
+
+/* Experiência
+------------------------------------------------*/
+.experiencias {
+  background: #78e0dcff;
+}
+
+/* Formação acadêmica
+------------------------------------------------*/
+
+/* Contato
+------------------------------------------------*/
+footer {
+  background: #132e32ff;
+  color: #f5f0f6ff;
+}
