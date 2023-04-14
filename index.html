@@ -6,12 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eduardo Queiroz, Desenvolvedor de Softwares, Tech Content Producer</title>
   <link rel="stylesheet" href="css/styles.css">
-  <<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400&family=Major+Mono+Display&family=Montserrat+Subrayada:wght@400;700&display=swap"
-      rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Josefin+Slab:wght@300;400;500&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -22,54 +20,85 @@
         <h1>Eduardo Queiroz</h1>
         <h2 class="example">Full Stack Developer</h2>
 
-        <p>Desenvolvedor de softwares e estudante de Arquitetura de softwares.Foco em desenvolvimento de aplicações
-          comerciais através da plataforma
-          .NET e outras tecnologias como: Angular, NodeJS, Typescrpit e Javascript.
-        </p>
-        <p>Onde me encontrar: <a href="https://www.linkedin.com/in/eduardoqueirozdev/" target="_blank"> LinkedIn</a>
+        <p>Desenvolvedor de softwares e estudante de Arquitetura de softwares. Foco em desenvolvimento de aplicações
+          comerciais através da plataforma .NET e outras tecnologias como: Angular, NodeJS, Typescrpit e Javascript.
         </p>
       </div>
     </header>
 
     <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
     <section class="projetos">
-      <div class="conteiner-conteudo">
-
-        <h2>Projetos</h2>
-        <p>Para os projetos apresentados abaixo, procure em:
+      <div class="conteiner-conteudo divisor">
+        <h2>Projetos Pessoais</h2>
+        <p>Abaixo estão alguns dos projetos desenvolvidos ao longo da minha carreira, além disso você pode encontrar
+          outros exemplos no meu repositório em:
           <a href="https://github.com/Queiroz-Dv">github.com/Queiroz-Dv</a>
         </p>
 
         <!-- Copy the whole <section> block to add more projects. -->
-        <section>
-          <h3>Projeto Básico de ERP </h3>
+        <section class="projeto-item">
           <img src="/images/erp.png" alt="Projeto básico de ERP" />
+          <h3>Projeto Básico de ERP </h3>
           <p>Um pequeno projeto de estudos baseado em Windows Forms utilizando a arquitetura MVC.</p>
           <a class="btn" href="https://github.com/Queiroz-Dv/PersonalTracking" target="_blank">Personal Tracking</a>
         </section>
+
+        <section class="projeto-item">
+          <img src="/images/cloud.png" alt="Projeto arquitetura" />
+          <h3>Projeto de estudos sobre Arquitetura Limpa</h3>
+          <p>Projeto de estudos sobre Arquitetura Limpa utilizando DDD, MVC e Arquitetura de 3 Camadas </p>
+          <a class="btn" href="https://github.com/Queiroz-Dv/CleanArchMvc" target="_blank">Clean Architecture MVC</a>
+        </section>
+
+        <section class="projeto-item">
+          <img src="/images/blogging.png" alt="Meu blog" />
+          <h3>Projeto de blog no Notion</h3>
+          <p>Este é um projeto de blog onde compartilho conteúdos sobre tecnologia e programação.</p>
+          <a class="btn" href="https://www.notion.so/qrz-eduardo-queiroz/QRZ-Eduardo-Queiroz-f7134213e0cc4281b11b028b3ea74568" target="_blank">QRZ - Blog</a>
+        </section>
         <!-- End of Project block. -->
+
+        <!-- https://www.notion.so/qrz-eduardo-queiroz/QRZ-Eduardo-Queiroz-f7134213e0cc4281b11b028b3ea74568 -->
       </div>
     </section>
 
     <!-- ***********************  WORK EXPERIENCE  *********************** -->
     <section class="experiencias">
-      <div class="conteiner-conteudo">
-        <h2>Work Experience</h2>
-        <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
+      <div class="conteiner-conteudo item-detalhes divisor">
+        <h2>Experiências</h2>
+        <p>Para mais detalhes, veja meu histórico no <a href="https://www.linkedin.com/in/eduardoqueirozdev/"
+            target="_blank">LinkedIn</a></p>
 
         <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
-          <h3>Job title</h3>
-          <p>Company Name</p>
-          <p>Date at job</p>
-          <p>Job summary goes here. Add as many paragraphs as you need.</p>
-          <p>Optional list:</p>
-          <ul>
-            <li>Delete this list if you don't need it.</li>
-            <li>Created...</li>
-            <li>Lead...</li>
-            <li>Responsible for...</li>
-          </ul>
+        <!-- First job -->
+        <section class="experiencia-item">
+          <div class="experiencia-detalhes">
+            <h3>Programador Júnior I</h3>
+            <p>MXM Sistemas</p>
+            <p>Maio 2022 - Até o momento</p>
+          </div>
+          <div class="experiencia-descricao">
+            <p>Atuei como desenvolvedor em correções e implementações em módulos do governo
+              como: SENAC, SERPRO e SESC. De forma semelhante, fui responsável pela migração, organização
+              e planejamento com uma pequena equipe dos módulos específicos governamentais.
+              Além disso, também contribuí em outros módulos do sistema como Orçamento, Compras e Patrimônio.
+            </p>
+          </div>
+        </section>
+
+        <!-- Second Jb -->
+        <section class="experiencia-item">
+          <div class="experiencia-detalhes">
+            <h3>Professor</h3>
+            <p>Creche São Lázaro</p>
+            <p>Fevereiro 2022 - Abril 2022</p>
+          </div>
+          <div class="experiencia-descricao">
+            <p>Atuei como professor autônomo de inglês e português para crianças com ênfase em alfabetização e
+              letramento na Creche São Lázaro situada em Belford Roxo. Além disso tinha a função de coordenar,
+              gerenciar e organizar as aulas em busca de métodos que garantissem o desenvolvimento dos alunos.
+            </p>
+          </div>
         </section>
         <!-- End of Job block. -->
       </div>
@@ -77,13 +106,32 @@
 
     <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
     <section class="formacao">
-      <div class="conteiner-conteudo">
-        <h2>Education</h2>
+      <div class="conteiner-conteudo item-detalhes">
+        <h2>Educação</h2>
         <!-- Copy this whole <section> block to add more schools. -->
         <section>
-          <h3>School name - City</h3>
-          <p>Designation received or program name, year attended</p>
-          <p>Summary or accomplishments.</p>
+          <h3>Faculdade Católica Paulista (FACAP) - Marília / SP</h3>
+          <p>Análise e Desenvolvimento de Sistemas - 2021</p>
+          <p>A instituição foi protagonista em elaboração de projetos, estudos de casos e teorias sobre programação e desenvolvimento de softwares
+            para a minha formação como analista de sistemas.</p>
+        </section>
+
+        <section>
+          <h3>LinkedIn Learning</h3>
+          <p>Become a Javascript Developer - 2023</p>
+          <p>Ao longo desse curso tive a oportunidade de desenvolver minhas habilidades na linguagem 
+            de programação Javascript, onde foi abordado desde os fundamentos até conceitos avançados com
+            o uso de frameworks e também no desenvolvimento de web sites.</p>
+          <p><a href="https://www.linkedin.com/learning/certificates/1db62f39e2a4aab1178b61188c426bb0617330773a3b81aaddca588e7b443e64">Certificado</a></p>
+        </section>
+
+        <section>
+          <h3>LinkedIn Learning</h3>
+          <p>Learning C# - 2022</p>
+          <p>Um dos cursos onde aprendi de forma apronfudada sobre a linguagem C#. Conceitos como POO, Generics e Listas foram amplamente abordados
+            garantindo o pleno conhecimento para o desenvolvimento de softwares com o uso da linguagem previamente citada.
+          </p>
+          <p><a href="https://www.linkedin.com/learning/certificates/1db62f39e2a4aab1178b61188c426bb0617330773a3b81aaddca588e7b443e64">Certificado</a></p>
         </section>
         <!-- End of School block. -->
       </div>
@@ -94,7 +142,7 @@
       <div class="conteiner-conteudo">
         <h2>Let's Keep in Touch!</h2>
         <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
+        <ul class="lista-contato">
           <li><a href="mailto:email@example.com">email@example.com</a></li>
           <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
           <li><a href="#" target="_blank">Twitter</a></li>
