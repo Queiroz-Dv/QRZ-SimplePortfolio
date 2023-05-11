@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -14,20 +14,31 @@
 
 <body>
   <main>
+    <!-- ***********************  NAVEGATION BAR ***********************  -->
+    <nav> <!--CONTENT-->
+      <a href="#profile">Home</a>
+      <a href="#projects">Projetos Pessoais</a>
+      <a href="#experience">Experiências</a>
+      <a href="#education">Formação</a>
+      <a href="#contact">Contato</a>
+    </nav>
+
     <!-- ***********************  ABOUT / PROFILE  *********************** -->
-    <header>
+    <header id="profile">
       <div class="conteiner-conteudo">
         <h1>Eduardo Queiroz</h1>
-        <h2 class="example">Full Stack Developer</h2>
+        <h2>Full Stack Developer</h2>
 
-        <p>Desenvolvedor de softwares e estudante de Arquitetura de softwares. Foco em desenvolvimento de aplicações
+        <p class="typewriter" id="profile-text">Analista, desenvolvedor de softwares e estudante de Arquitetura de
+          softwares. Focado em desenvolvimento de
+          aplicações
           comerciais através da plataforma .NET e outras tecnologias como: Angular, NodeJS, Typescrpit e Javascript.
         </p>
       </div>
     </header>
 
     <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-    <section class="projetos">
+    <section class="projetos" id="projects">
       <div class="conteiner-conteudo divisor">
         <h2>Projetos Pessoais</h2>
         <p>Abaixo estão alguns dos projetos desenvolvidos ao longo da minha carreira, além disso você pode encontrar
@@ -54,7 +65,9 @@
           <img src="/images/blogging.png" alt="Meu blog" />
           <h3>Projeto de blog no Notion</h3>
           <p>Este é um projeto de blog onde compartilho conteúdos sobre tecnologia e programação.</p>
-          <a class="btn" href="https://www.notion.so/qrz-eduardo-queiroz/QRZ-Eduardo-Queiroz-f7134213e0cc4281b11b028b3ea74568" target="_blank">QRZ - Blog</a>
+          <a class="btn"
+            href="https://www.notion.so/qrz-eduardo-queiroz/QRZ-Eduardo-Queiroz-f7134213e0cc4281b11b028b3ea74568"
+            target="_blank">QRZ - Blog</a>
         </section>
         <!-- End of Project block. -->
 
@@ -63,7 +76,7 @@
     </section>
 
     <!-- ***********************  WORK EXPERIENCE  *********************** -->
-    <section class="experiencias">
+    <section class="experiencias" id="experience">
       <div class="conteiner-conteudo item-detalhes divisor">
         <h2>Experiências</h2>
         <p>Para mais detalhes, veja meu histórico no <a href="https://www.linkedin.com/in/eduardoqueirozdev/"
@@ -105,33 +118,40 @@
     </section>
 
     <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-    <section class="formacao">
+    <section class="formacao" id="education">
       <div class="conteiner-conteudo item-detalhes">
         <h2>Educação</h2>
         <!-- Copy this whole <section> block to add more schools. -->
         <section>
           <h3>Faculdade Católica Paulista (FACAP) - Marília / SP</h3>
           <p>Análise e Desenvolvimento de Sistemas - 2021</p>
-          <p>A instituição foi protagonista em elaboração de projetos, estudos de casos e teorias sobre programação e desenvolvimento de softwares
+          <p>A instituição foi protagonista em elaboração de projetos, estudos de casos e teorias sobre programação e
+            desenvolvimento de softwares
             para a minha formação como analista de sistemas.</p>
         </section>
 
         <section>
           <h3>LinkedIn Learning</h3>
           <p>Become a Javascript Developer - 2023</p>
-          <p>Ao longo desse curso tive a oportunidade de desenvolver minhas habilidades na linguagem 
+          <p>Ao longo desse curso tive a oportunidade de desenvolver minhas habilidades na linguagem
             de programação Javascript, onde foi abordado desde os fundamentos até conceitos avançados com
             o uso de frameworks e também no desenvolvimento de web sites.</p>
-          <p><a href="https://www.linkedin.com/learning/certificates/1db62f39e2a4aab1178b61188c426bb0617330773a3b81aaddca588e7b443e64">Certificado</a></p>
+          <p><a
+              href="https://www.linkedin.com/learning/certificates/1db62f39e2a4aab1178b61188c426bb0617330773a3b81aaddca588e7b443e64">Certificado</a>
+          </p>
         </section>
 
         <section>
           <h3>LinkedIn Learning</h3>
           <p>Learning C# - 2022</p>
-          <p>Um dos cursos onde aprendi de forma apronfudada sobre a linguagem C#. Conceitos como POO, Generics e Listas foram amplamente abordados
-            garantindo o pleno conhecimento para o desenvolvimento de softwares com o uso da linguagem previamente citada.
+          <p>Um dos cursos onde aprendi de forma apronfudada sobre a linguagem C#. Conceitos como POO, Generics e Listas
+            foram amplamente abordados
+            garantindo o pleno conhecimento para o desenvolvimento de softwares com o uso da linguagem previamente
+            citada.
           </p>
-          <p><a href="https://www.linkedin.com/learning/certificates/1db62f39e2a4aab1178b61188c426bb0617330773a3b81aaddca588e7b443e64">Certificado</a></p>
+          <p><a
+              href="https://www.linkedin.com/learning/certificates/1db62f39e2a4aab1178b61188c426bb0617330773a3b81aaddca588e7b443e64">Certificado</a>
+          </p>
         </section>
         <!-- End of School block. -->
       </div>
@@ -139,19 +159,20 @@
 
     <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
     <footer>
-      <div class="conteiner-conteudo">
-        <h2>Let's Keep in Touch!</h2>
+      <div class="conteiner-conteudo" id="contact">
+        <h2>Vamos manter contato!</h2>
         <!-- Social media and contact links. Add or remove any networks. -->
         <ul class="lista-contato">
-          <li><a href="mailto:email@example.com">email@example.com</a></li>
-          <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
-          <li><a href="#" target="_blank">Twitter</a></li>
-          <li><a href="#" target="_blank">LinkedIn</a></li>
-          <li><a href="#" target="_blank">Facebook</a></li>
+          <li><a href="mailto:teacher.eduardo.queiroz@gmail.com">Gmail</a></li>
+          <li><a href="https://qrz-eduardo-queiroz.blogspot.com/" target="_blank">Blog</a></li>
+          <li><a href="https://www.linkedin.com/in/eduardoqueirozdev/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/eduardoqueirooz/" target="_blank">Facebook</a></li>
         </ul>
       </div>
     </footer>
   </main>
+
+  <script type="module" src="js/main.js"></script>
 </body>
 
 </html>
